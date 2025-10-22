@@ -1,0 +1,16 @@
+From: HDFC Bank Security <security@hdfcbank-support.in>
+Subject: Urgent: Your Account Access is Blocked!
+
+Dear HDFC Customer,
+
+We have detected suspicious login attempts on your account (XXXX-5678). To restore access, please verify your credentials immediately:
+
+https://hdfconline-login.com/verify-now
+
+If you do not respond within 24 hours, your account will be permanently disabled.
+
+Attached: account_recovery.exe
+
+Regards,
+HDFC Security Team
+security@hdfcbank-support.in
