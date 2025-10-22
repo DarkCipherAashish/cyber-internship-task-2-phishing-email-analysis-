@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Email Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #d32f2f; }
+        h2 { color: #1976d2; }
+        ul { list-style-type: square; }
+    </style>
+</head>
+<body>
+    <h1>Phishing Email Analysis Report</h1>
+
+    <h2>Phishing Indicators Found</h2>
+    <ul>
+        <li><strong>Sender Spoofing:</strong> The email is from "security@hdfcbank-support.in", a spoofed address with a non-official domain (legitimate is "hdfcbank.com") and added "-support" to deceive users.</li>
+        <li><strong>Header Discrepancies:</strong> Analysis with an online header analyzer (e.g., MX Toolbox) shows the email originated from an IP (e.g., 198.51.100.10) not associated with HDFC Bank’s servers, indicating manipulation (see screenshot_headers.png).</li>
+        <li><strong>Suspicious Link:</strong> The URL "https://hdfconline-login.com/verify-now" mismatches the official "hdfcbank.com" and points to a potential phishing site when hovered over.</li>
+        <li><strong>Urgent/Threatening Language:</strong> Phrases like "Urgent," "suspicious login attempts," and "permanently disabled" create pressure to act hastily.</li>
+        <li><strong>Suspicious Attachment:</strong> The "account_recovery.exe" file suggests a malware payload, a common tactic in real phishing attacks.</li>
+        <li><strong>Spelling/Grammar Errors:</strong> The informal "Regards" and abrupt tone shift indicate unprofessional scripting typical of phishing emails.</li>
+    </ul>
+
+    <h2>Summary</h2>
+    <p>This email displays multiple phishing characteristics, including a spoofed sender, mismatched URL, urgent language, and a malicious attachment. These align with social engineering techniques to exploit trust and fear, key threats in email security.</p>
+
+    <h2>Interview Question Responses</h2>
+    <ul>
+        <li><strong>1. What is phishing?</strong> A cyberattack where attackers impersonate trusted entities to steal sensitive information like passwords or bank details.</li>
+        <li><strong>2. How to identify a phishing email?</strong> Check the sender domain, hover over links, look for urgency or errors, and analyze headers.</li>
+        <li><strong>3. What is email spoofing?</strong> Faking the "From" address to appear as a legitimate source.</li>
+        <li><strong>4. Why are phishing emails dangerous?</strong> They can lead to financial loss, identity theft, or malware infection.</li>
+        <li><strong>5. How can you verify the sender’s authenticity?</strong> Contact the organization via the official website (e.g., hdfcbank.com) or phone number.</li>
+        <li><strong>6. What tools can analyze email headers?</strong> Free tools like MX Toolbox or Google’s Message Header Analyzer.</li>
+        <li><strong>7. What actions should be taken on suspected phishing emails?</strong> Do not click/open; report to IT or hdfc@phishing.report; delete.</li>
+        <li><strong>8. How do attackers use social engineering in phishing?</strong> They use urgency or trust to manipulate users into revealing information or clicking links.</li>
+    </ul>
+</body>
+</html>
